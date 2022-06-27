@@ -14,4 +14,12 @@ config checkout
 Set flag to hide untracked
 config config --local status.showUntrackedFiles no
 
+Configuration for macos
+
+Uses yabai as a tiling manager - https://github.com/koekeishiya/yabai
+skhd to manage keyboard shortcuts - https://github.com/koekeishiya/skhd
+spacebar for the status bar - https://github.com/cmacrae/spacebar
+
+Fonts
+TODO
 
