@@ -1,0 +1,6 @@
+alias zrc="vim ~/.zshrc"
+alias vrc="vim ~/.vimrc"
+alias src="source ~/.zshrc"
+alias ls="ls -la --color=always"
+
+mcdir () { mkdir -p -- "$1" && cd -P -- "$1" }
