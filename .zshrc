@@ -14,6 +14,7 @@ plugins=(
 
 
 source $ZSH/oh-my-zsh.sh
+fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
 prompt pure
 # User configuration

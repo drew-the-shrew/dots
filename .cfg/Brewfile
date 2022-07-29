@@ -1,0 +1,30 @@
+# Allows cask installs/upgrades and installing with mas
+tap "homebrew/cask"
+tap "buo/cask-upgrade"
+brew "mas"
+
+# Window manager
+tap "koekeishiya/formulae"
+brew "skhd"
+tap "cmacrae/formulae"
+brew "spacebar"
+tap "koekeishiya/formulae"
+brew "yabai"
+
+# Cask applications
+cask "sublime-text"
+cask "spotify"
+cask "emacs"
+cask "chromium"
+cask "jiggler"
+cask "dropbox"
+
+# cli tools
+brew "wget"
+brew "tree"
+brew "fzf"
+brew "pssh"
+brew "htop"
+
+# shell config
+brew "pure"
