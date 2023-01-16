@@ -14,10 +14,10 @@ brew "yabai"
 # Cask applications
 cask "sublime-text"
 cask "spotify"
-cask "emacs"
+cask "firefox"
 cask "chromium"
 cask "jiggler"
-cask "dropbox"
+cask "grandperspective"
 
 # cli tools
 brew "wget"

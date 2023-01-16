@@ -53,7 +53,7 @@ yabai -m space 8 --label slack
 yabai -m space 9 --label music
 
 # app space rules
-yabai -m rule --add app=Firefox space=web
+yabai -m rule --add app=Safari space=web
 yabai -m rule --add app=Subl space=code
 yabai -m rule --add app=Terminal space=term
 yabai -m rule --add app=zoom space=zoom
