@@ -12,7 +12,8 @@ plugins=(
      	git
 )
 
-
+# .zshrc
+fpath+=($HOME/.zsh/pure)
 source $ZSH/oh-my-zsh.sh
 
 autoload -U promptinit; promptinit
